@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this software. No publication DOI was supplied for this release."
+title: "DendriteLBM"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Yang
+  - family-names: Wu
+    given-names: Xiaomin
+  - family-names: Zhan
+    given-names: Chengjie
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "A unified multirate lattice Boltzmann framework for thermosolutal dendritic solidification"
+  authors:
+    - family-names: Liu
+      given-names: Yang
+    - family-names: Wu
+      given-names: Xiaomin
+    - family-names: Zhan
+      given-names: Chengjie
+  notes: "Manuscript main0914.tex; companion software covers sections 4.1–4.3. Publication metadata pending."

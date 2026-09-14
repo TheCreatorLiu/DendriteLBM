@@ -1,0 +1,131 @@
+{
+  "date": "2026-09-14",
+  "environment": {
+    "os": "Windows",
+    "python": "3.12.14",
+    "warp": "1.16.0",
+    "numpy": "2.5.2",
+    "matplotlib": "3.11.0",
+    "gpu": "NVIDIA GeForce RTX 5090 D v2",
+    "driver": "616.56"
+  },
+  "gpu_smoke": [
+    {
+      "model": "thermal",
+      "flow": "off",
+      "exit_code": 0,
+      "seconds": 10.917235600063577,
+      "max_abs_velocity": 0.0,
+      "psi_min_max": [
+        -1.0000001192092896,
+        0.9846363067626953
+      ],
+      "max_phase_change": 1.083802580833435
+    },
+    {
+      "model": "thermal",
+      "flow": "on",
+      "exit_code": 0,
+      "seconds": 9.97858080000151,
+      "max_abs_velocity": 0.02456999570131302,
+      "psi_min_max": [
+        -1.0000001192092896,
+        0.988239586353302
+      ],
+      "max_phase_change": 0.14576038718223572
+    },
+    {
+      "model": "solutal",
+      "flow": "off",
+      "exit_code": 0,
+      "seconds": 16.719043000019155,
+      "max_abs_velocity": 0.0,
+      "psi_min_max": [
+        -1.0,
+        0.9919928312301636
+      ],
+      "max_phase_change": 1.1746931076049805
+    },
+    {
+      "model": "solutal",
+      "flow": "on",
+      "exit_code": 0,
+      "seconds": 17.977855000062846,
+      "max_abs_velocity": 0.05914955586194992,
+      "psi_min_max": [
+        -1.0,
+        0.9856001138687134
+      ],
+      "max_phase_change": 0.16514095664024353
+    },
+    {
+      "model": "thermosolutal",
+      "flow": "off",
+      "exit_code": 0,
+      "seconds": 16.014849700033665,
+      "max_abs_velocity": 0.0,
+      "psi_min_max": [
+        -1.0000001192092896,
+        1.0000001192092896
+      ],
+      "max_phase_change": 1.1792235374450684
+    },
+    {
+      "model": "thermosolutal",
+      "flow": "on",
+      "exit_code": 0,
+      "seconds": 16.073462200001813,
+      "max_abs_velocity": 0.0004005359369330108,
+      "psi_min_max": [
+        -1.0000001192092896,
+        1.0000001192092896
+      ],
+      "max_phase_change": 1.1796295642852783
+    }
+  ],
+  "source_parity": [
+    {
+      "model": "thermal",
+      "flow": "on",
+      "grid": 64,
+      "steps": 90,
+      "max_absolute_difference": {
+        "psi": 0.0,
+        "theta": 0.0,
+        "velocity": 0.0
+      }
+    },
+    {
+      "model": "solutal",
+      "flow": "on",
+      "grid": 64,
+      "steps": 90,
+      "max_absolute_difference": {
+        "psi": 0.0,
+        "U": 0.0,
+        "theta": 0.0,
+        "velocity": 0.0
+      }
+    },
+    {
+      "model": "thermosolutal",
+      "flow": "off",
+      "grid": 128,
+      "steps": 90,
+      "max_absolute_difference": {
+        "psi": 0.0,
+        "U": 0.0,
+        "theta": 0.0,
+        "velocity": 0.0
+      }
+    }
+  ],
+  "unittest": {
+    "runtime_tests": 4,
+    "cpu_simulation_cases": 6,
+    "gpu_simulation_cases": 6,
+    "status": "passed"
+  },
+  "figure_pdf_hashes_match_sources": 10,
+  "full_manuscript_reproduction": "not performed"
+}

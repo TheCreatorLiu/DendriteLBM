@@ -1,0 +1,4 @@
+# Tested GPU kernel runtime; install package warp-lang, import module warp.
+warp-lang==1.16.0
+numpy>=1.26,<3
+matplotlib>=3.8,<4

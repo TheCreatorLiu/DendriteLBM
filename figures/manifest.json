@@ -1,0 +1,92 @@
+[
+  {
+    "figure": 1,
+    "section": "3.3",
+    "title": "Computational workflow of the four-field multirate MRT-LBM",
+    "pdf": "figure-01.pdf",
+    "source_filename": "Figure 1.pdf",
+    "sha256": "241ed83f794048fb5eae8d341411d486c5543f00143efcd037eb0570f70ed470",
+    "caption_latex": "Computational workflow of the four-field multirate MRT-LBM, including field-specific updates and phase-increment-based transfer of phase-change contributions."
+  },
+  {
+    "figure": 2,
+    "section": "4.1",
+    "title": "Thermal dendrite under pure diffusion",
+    "pdf": "figure-02.pdf",
+    "source_filename": "Figure 2.pdf",
+    "sha256": "28d8301fccb55460256672deee35b6a5045926912187a5a6b2467470e818ee0c",
+    "caption_latex": "Thermal dendritic solidification under pure diffusion with $\\theta_0=-0.55$ and $Pe=0.25$: (a) $\\phi=0$ interface contours at $t/\\tau_0=0, 8, 16, 32, 64, \\text{ and } 128$; and (b) isotherms from $\\theta=-0.55$ to $-0.05$ at $t/\\tau_0=128$."
+  },
+  {
+    "figure": 3,
+    "section": "4.1",
+    "title": "Thermal dendrite under forced convection",
+    "pdf": "figure-03.pdf",
+    "source_filename": "Figure 3.pdf",
+    "sha256": "b6a02610112f7b10c77ee3eb97936f2ce89bfc0bea3903513ec68206f3cee183",
+    "caption_latex": "Thermal dendritic solidification under forced convection with $\\theta_0=-0.55$, $Pe=0.25$, and $Pr=23.1$: (a) $\\phi=0$ interface contours at $t/\\tau_0=0, 8, 16, 32, 64, \\text{ and } 128$; and (b) isotherms from $\\theta=-0.55$ to $-0.05$ at $t/\\tau_0=128$."
+  },
+  {
+    "figure": 4,
+    "section": "4.1",
+    "title": "Thermal tip velocities and temperature update-factor comparison",
+    "pdf": "figure-04.pdf",
+    "source_filename": "Figure 4.pdf",
+    "sha256": "8148627428cc1c944cc322b14872815dd9c6dbbff79fa813a661987ae9ebd8a9",
+    "caption_latex": "Nondimensional tip velocity $v_\\mathrm{tip}d_0/\\alpha_\\mathrm{eff}$ versus $t/\\tau_0$ for thermal dendritic solidification: (a) pure diffusion; (b) directional tip velocities under forced convection; and (c) forced-convection results for temperature-field update factors $N_T=15, 30, \\text{ and } 45$."
+  },
+  {
+    "figure": 5,
+    "section": "4.2",
+    "title": "Solutal dendrite under pure diffusion",
+    "pdf": "figure-05.pdf",
+    "source_filename": "Figure 5.pdf",
+    "sha256": "bdb0a41bb0a7335c6e85249f2411a69ed7afebb9cd6411f3a9685a4637e6b5d8",
+    "caption_latex": "Solutal dendritic solidification under pure diffusion with $U_0=-0.55$ and $\\widetilde D_\\mathrm{L}=2$: (a) $\\phi=0$ interface contours at $t/\\tau_0=0, 40, 120, 200, 400, 600, 800, \\text{ and } 1000$; and (b) supersaturation contours from $U=-0.55$ to $-0.05$ at $t/\\tau_0=1000$."
+  },
+  {
+    "figure": 6,
+    "section": "4.2",
+    "title": "Solutal dendrite under forced convection",
+    "pdf": "figure-06.pdf",
+    "source_filename": "Figure 6.pdf",
+    "sha256": "d12159d02afda7f25ac46d1bd0aa09655e4eb2edbe08f0125ebb80eee20befb3",
+    "caption_latex": "Solutal dendritic solidification under forced convection with $U_0=-0.55$, $\\widetilde D_\\mathrm{L}=2$, and $u_{\\mathrm{in}}=W_0/\\tau_0$: (a) $\\phi=0$ interface contours at $t/\\tau_0=0, 40, 120, 200, 400, \\text{ and } 600$; and (b) supersaturation contours from $U=-0.55$ to $-0.05$ at $t/\\tau_0=600$."
+  },
+  {
+    "figure": 7,
+    "section": "4.2",
+    "title": "Solutal tip velocities and concentration update-factor comparison",
+    "pdf": "figure-07.pdf",
+    "source_filename": "Figure 7.pdf",
+    "sha256": "3f68bd8222334704c6d91aabe8ba875bfe077909940793b102988d40825e5257",
+    "caption_latex": "Nondimensional tip velocity $v_\\mathrm{tip}d_0/D_\\mathrm{L}$ versus $t/\\tau_0$ for solutal dendritic solidification: (a) pure diffusion; (b) directional tip velocities under forced convection; and (c) forced-convection results for concentration-field update factors $N_U=15, 30, \\text{ and } 45$."
+  },
+  {
+    "figure": 8,
+    "section": "4.3",
+    "title": "Thermosolutal fields under pure diffusion at Le=50",
+    "pdf": "figure-08.pdf",
+    "source_filename": "Figure 8.pdf",
+    "sha256": "b2715f36bd3585c97d328d855ee6fde43cb2f7953b3c338f182a025f117820c9",
+    "caption_latex": "Thermosolutal dendritic solidification under pure diffusion at $Le=50$ and $tD_\\mathrm{L}/d_0^2=3500$: (a) phase field, (b) supersaturation $U$, and (c) undercooling $\\theta$. The black curve denotes the $\\phi=0$ interface."
+  },
+  {
+    "figure": 9,
+    "section": "4.3",
+    "title": "Thermosolutal fields under forced convection at Le=50",
+    "pdf": "figure-09.pdf",
+    "source_filename": "Figure 9.pdf",
+    "sha256": "b2953e5fa1a20f6e05e7b061ae1653b99ed3abd072c051dce6902fe2707f4df8",
+    "caption_latex": "Thermosolutal dendritic solidification under forced convection at $Le=50$, $Pe_D=0.2$, and $tD_\\mathrm{L}/d_0^2=3500$: (a) phase field, (b) supersaturation $U$, (c) undercooling $\\theta$, and (d) velocity magnitude and vectors. The black curve denotes the $\\phi=0$ interface."
+  },
+  {
+    "figure": 10,
+    "section": "4.3",
+    "title": "Thermosolutal tip velocities and interface contours for N_U=30,40,50",
+    "pdf": "figure-10.pdf",
+    "source_filename": "Figure 10.pdf",
+    "sha256": "476817964f7803e16a127710764b0be0659c744faf7862a00e40f30ee9b81142",
+    "caption_latex": "Nondimensional tip velocity $v_\\mathrm{tip}d_0/D_\\mathrm{L}$ versus $tD_\\mathrm{L}/d_0^2$ for thermosolutal dendritic solidification at $Le=50$: (a) pure diffusion; (b) directional tip velocities under forced convection at $Pe_D=0.2$ for concentration-field update factors $N_U=30, 40, \\text{ and } 50$; and (c) the corresponding interface contours at $tD_\\mathrm{L}/d_0^2=3500$."
+  }
+]
