@@ -4,9 +4,9 @@ GPU-accelerated, two-dimensional dendritic solidification with a multirate D2Q9 
 
 [![Figure 9: Thermosolutal dendritic solidification under forced convection](figures/previews/figure-09.png)](figures/figure-09.pdf)
 
-*Figure 9. Thermosolutal dendritic solidification under forced convection at Le = 50 and Pe_D = 0.2: phase field, supersaturation, undercooling, and velocity field. Click the image to view the original PDF.*
+*Figure. Thermosolutal dendritic solidification under forced convection at Le = 50 and Pe_D = 0.2: phase field, supersaturation, undercooling, and velocity field. Click the image to view the original PDF.*
 
-Companion code for sections **4.1–4.3** of *A unified multirate lattice Boltzmann framework for thermosolutal dendritic solidification* (Yang Liu, Xiaomin Wu, Chengjie Zhan; manuscript supplied as `main0914.tex`).
+Companion code for sections **4.1–4.3** of *A unified multirate lattice Boltzmann framework for thermosolutal dendritic solidification* (Yang Liu, Xiaomin Wu, Chengjie Zhan).
 
 [Getting started](docs/GETTING_STARTED.md) · [Paper/code alignment](docs/MANUSCRIPT_ALIGNMENT.md) · [Figures 1–10](figures/README.md) · [Validation](docs/VALIDATION.md)
 
