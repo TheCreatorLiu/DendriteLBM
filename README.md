@@ -1,10 +1,8 @@
 # DendriteLBM
 
-GPU-accelerated, two-dimensional dendritic solidification with a multirate D2Q9 multiple-relaxation-time lattice Boltzmann method, implemented in **NVIDIA Warp**.
-
 [![Figure 9: Thermosolutal dendritic solidification under forced convection](figures/previews/figure-09.png)](figures/figure-09.pdf)
 
-*Figure. Thermosolutal dendritic solidification under forced convection at Le = 50 and Pe_D = 0.2: phase field, supersaturation, undercooling, and velocity field. Click the image to view the original PDF.*
+GPU-accelerated, two-dimensional thermosolutal dendritic solidification with a multirate D2Q9 multiple-relaxation-time lattice Boltzmann method, implemented in **NVIDIA Warp**.
 
 Companion code for sections **4.1–4.3** of *A unified multirate lattice Boltzmann framework for thermosolutal dendritic solidification* (Yang Liu, Xiaomin Wu, Chengjie Zhan).
 
