@@ -4,7 +4,7 @@
 
 GPU-accelerated, two-dimensional thermosolutal dendritic solidification with a multirate D2Q9 multiple-relaxation-time lattice Boltzmann method, implemented in **NVIDIA Warp**.
 
-Companion code for sections **4.1–4.3** of *A unified multirate lattice Boltzmann framework for thermosolutal dendritic solidification* (Yang Liu, Xiaomin Wu, Chengjie Zhan).
+Companion code for sections **4.1–4.3** of *A unified multirate lattice Boltzmann framework for thermosolutal dendritic solidification* (Yang Liu, Xiaomin Wu, Chengjie Zhan, https://arxiv.org/abs/2609.25670).
 
 [Getting started](docs/GETTING_STARTED.md) · [Paper/code alignment](docs/MANUSCRIPT_ALIGNMENT.md) · [Figures 1–10](figures/README.md) · [Validation](docs/VALIDATION.md)
 
